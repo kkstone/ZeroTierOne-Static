@@ -1,4 +1,4 @@
-ZT_VERSION ?= 1.14.1
+ZT_VERSION ?= 1.14.2
 
 BUILDX_BUILDER ?= zerotier-builder
 PLATFORM ?= linux/amd64
