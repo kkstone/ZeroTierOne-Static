@@ -1,11 +1,9 @@
 name: Release
 
 on:
-  workflow_dispatch:
   push:
-    # Publish `1.2.3` tags as releases.
     tags:
-    - '*'
+      - '*' 
 
 jobs:
   build:
