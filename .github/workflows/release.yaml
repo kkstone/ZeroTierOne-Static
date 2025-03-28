@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        arch: [ {platform: 'linux/amd64', name: 'x86_64'}, {platform: 'linux/arm64', name: 'aarch64'}, {platform: 'linux/arm', name: 'arm32'}]
+        arch: [ {platform: 'linux/amd64', name: 'x86_64'}, {platform: 'linux/arm64', name: 'aarch64'}, {platform: 'linux/arm', name: 'arm'}]
 
     steps:
     - name: Checkout
