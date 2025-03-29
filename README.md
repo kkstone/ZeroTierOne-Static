@@ -6,7 +6,7 @@ This project provides static [Zerotier-One](https://github.com/zerotier/ZeroTier
 
 Download latest release:
 ```sh
-curl -LJO https://github.com/rafalb8/ZeroTierOne-Static/releases/latest/download/zerotier-one-x86_64.tar.gz
+curl -LJO https://github.com/kkstone/ZeroTierOne-Static/releases/latest/download/zerotier-one-x86_64.tar.gz
 ```
 
 And install it to bin:
@@ -21,5 +21,5 @@ make
 ```
 To build specific version, set variable:
 ```sh
-make ZT_VERSION=1.10.1
+make ZT_VERSION=1.14.2
 ```
